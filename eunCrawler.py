@@ -120,5 +120,5 @@ def eunCrawler(language:str='arabic'):
         json.dump(jNews, jFile, ensure_ascii=False)
 
 #@title Run execution
-if __name__ = '__main__':
+if __name__ == '__main__':
     eunCrawler()
